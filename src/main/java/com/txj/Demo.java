@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
  */
 public class Demo {
     public static void main(String[] args) {
-        long re = System.currentTimeMillis();
+       
         //创建线程池
         //返回线程池对象
         ExecutorService threadPool = Executors.newFixedThreadPool(1000);
@@ -54,7 +54,7 @@ public class Demo {
         }
         //线程关闭
         threadPool.shutdown();
-        System.out.println("时间="+(System.currentTimeMillis()-re));
+        
     }
 }
 
